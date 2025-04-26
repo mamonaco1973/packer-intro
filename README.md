@@ -1,16 +1,18 @@
 # Cross-Cloud Image Building with Packer  
 
-In this series, we build and deploy **custom Linux and Windows images** across **AWS**, **Azure**, and **Google Cloud Platform**, using **HashiCorp Packer**.
+In this series, we'll complete an end-to-end project using **HashiCorp Packer** to build and deploy custom VM images across **AWS**, **Azure**, and **Google Cloud Platform**.
 
-## What You’ll Learn
+We’ll build **two VM images** from scratch:
 
-- Automate image creation for **Ubuntu** and **Windows Server** with tailored cloud configurations.
-- Apply the **latest Windows Updates** during image build — ensuring patched, secure deployments from day one.
-- Handle **WinRM**, **Sysprep**, and firewall rules in Windows, with cloud-specific approaches.
-- Install and configure services like **Apache** (Linux) and **Chrome/Firefox** (Windows).
-- Create a local `packer` user with secure password management using cloud secrets.
-- Deploy and test the images using **HTTP** access for Linux or **RDP** access for Windows.
-- Work around Azure’s limitations by executing `CustomData.bin` through a VM extension — enabling consistent cross-cloud boot behavior.
+- An **Ubuntu 24.04** image that installs **Apache** and deploys classic **80's-style JavaScript/HTML games**.
+- A **Windows Server 2022** image that applies the **latest Windows Updates** at build time and installs **Chrome** and **Firefox** for ready-to-go browser support.
+
+We'll learn the following.
+
+- Automate secure Linux and Windows image creation tailored for each cloud.
+- Create a local `packer` account on the images and store the credentials as secrets.
+- Handle **WinRM**, **Sysprep**, and firewall configuration for Windows.
+- Deploy and test your images with **HTTP** access (Linux) and **RDP** access (Windows).
 
 ---
 
