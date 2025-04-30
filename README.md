@@ -20,15 +20,15 @@ This is a **complete working solution** for building reusable cloud images — e
 
 ## Quick Links
 
-1. [Building Images with Packer](TBD)
+1. [Packer in the Cloud](https://youtu.be/buLKqtuRzWc)
 2. AWS Solution
-   - [Build AMIs with Packer](TBD)
+   - [Packer in AWS](https://youtu.be/VXyYrJS6esk)
    - [GitHub Project](https://github.com/mamonaco1973/aws-packer/)
 3. Azure Solution
-   - [Build Azure Images with Packer](TBD)
+   - [Packer in Azure](https://youtu.be/NMRtx4fbyNM)
    - [GitHub Project](https://github.com/mamonaco1973/azure-packer/)
 4. GCP Solution
-   - [Build GCP Images with Packer](TBD)
+   - [Packer in GCP](https://youtu.be/4GTBJJRQi7Y)
    - [GitHub Project](https://github.com/mamonaco1973/gcp-packer/)
 
 ## AWS Image Build & Deployment
